@@ -3,6 +3,7 @@ import './App.css';
 import {Header, Content, Footer} from './func-components' 
 import MsgBox from './class-props';
 import MsgBox2 from './func-props';
+import Banner from './banner';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         fontSize="18pt" 
         border="solid 1px black"
         />
+      <Banner/>
       <Footer/>
     </>
   );
