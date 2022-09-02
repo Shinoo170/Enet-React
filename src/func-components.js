@@ -9,7 +9,6 @@ export function Header() {
     }
     return (
         <div style={{backgroundColor: '#ccc'}}>
-            <span style={{margin: '10px'}}>&#x1D542;</span>
             <a href="" style={aStyle}>Home</a> |&nbsp;
             <a href="" style={aStyle}>React</a> |&nbsp;
             <a href="" style={aStyle}>React Native</a> |&nbsp; 
@@ -21,7 +20,6 @@ export function Content() {
     return (
         <div style={{textAlign: 'center'}}>
             <h2>Hello <br/>React & React Native</h2>
-            &sum; 5 &#x21C4; 3.1415926535897823284626433 &#x25BE;
             <br/><br/><br/>
         </div>
     )
