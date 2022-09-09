@@ -1,4 +1,4 @@
-import Reatc, {Component} from 'react'
+import {Component} from 'react'
 
 export default class MsgBox extends Component {
     render() {

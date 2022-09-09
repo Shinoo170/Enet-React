@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import {Header, Content, Footer} from './func-components' 
 import MsgBox from './class-props';
 import MsgBox2 from './func-props';
 import Banner from './banner';
 import {EventData2} from './event-data'
+import RefsArray from './refs-array';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       />
       <Banner/>
       <EventData2/>
+      <RefsArray/>
       <Footer/>
     </>
   );
